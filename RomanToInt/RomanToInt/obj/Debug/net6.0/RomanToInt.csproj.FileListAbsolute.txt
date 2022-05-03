@@ -1,0 +1,15 @@
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\bin\Debug\net6.0\RomanToInt.exe
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\bin\Debug\net6.0\RomanToInt.deps.json
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\bin\Debug\net6.0\RomanToInt.runtimeconfig.json
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\bin\Debug\net6.0\RomanToInt.dll
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\bin\Debug\net6.0\RomanToInt.pdb
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.csproj.AssemblyReference.cache
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.AssemblyInfoInputs.cache
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.AssemblyInfo.cs
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.csproj.CoreCompileInputs.cache
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.dll
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\refint\RomanToInt.dll
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.pdb
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\RomanToInt.genruntimeconfig.cache
+C:\DevC#\CodeWarsC#\RomanToInt\RomanToInt\obj\Debug\net6.0\ref\RomanToInt.dll
