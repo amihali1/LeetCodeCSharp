@@ -1,0 +1,15 @@
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\bin\Debug\net6.0\IntToRoman.exe
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\bin\Debug\net6.0\IntToRoman.deps.json
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\bin\Debug\net6.0\IntToRoman.runtimeconfig.json
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\bin\Debug\net6.0\IntToRoman.dll
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\bin\Debug\net6.0\IntToRoman.pdb
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.csproj.AssemblyReference.cache
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.AssemblyInfoInputs.cache
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.AssemblyInfo.cs
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.csproj.CoreCompileInputs.cache
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.dll
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\refint\IntToRoman.dll
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.pdb
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\IntToRoman.genruntimeconfig.cache
+C:\DevC#\LeetCodeCSharp\IntToRoman\IntToRoman\obj\Debug\net6.0\ref\IntToRoman.dll
