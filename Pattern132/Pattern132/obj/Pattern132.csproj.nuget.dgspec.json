@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DevC#\\LeetCodeCSharp\\Pattern132\\Pattern132\\Pattern132.csproj": {}
+  },
+  "projects": {
+    "C:\\DevC#\\LeetCodeCSharp\\Pattern132\\Pattern132\\Pattern132.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DevC#\\LeetCodeCSharp\\Pattern132\\Pattern132\\Pattern132.csproj",
+        "projectName": "Pattern132",
+        "projectPath": "C:\\DevC#\\LeetCodeCSharp\\Pattern132\\Pattern132\\Pattern132.csproj",
+        "packagesPath": "C:\\Users\\andym\\.nuget\\packages\\",
+        "outputPath": "C:\\DevC#\\LeetCodeCSharp\\Pattern132\\Pattern132\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
