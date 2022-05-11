@@ -11,6 +11,14 @@ namespace Pattern132
 
         internal bool Find132Pattern(int[] nums)
         {            
+            if (nums.Length == 3)
+            {
+                if (nums[0] < nums[2] && nums[2] < nums[1])
+                    return true;
+                else
+                    return false;
+            }
+
             var leftMins = new Stack<int>();
 
             leftMins.Push(nums[0]);
