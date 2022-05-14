@@ -14,15 +14,34 @@ namespace Pattern132
         internal bool Find132Pattern(int[] nums)
         {
             Stack<int> stack = new Stack<int>();
-            int two = int.MinValue;
+            
+            // n[k] can never be the int.MinValue
+            int n_k = int.MinValue;
+            int n_j;
+            int n_i;
+
+            // Reverse through the list to ensure index condition 
+            // Index condition is ensured because n_j and n_k can only be set in the stack after index i
             for (int i = nums.Count() - 1; i >= 0; i--)
             {
-                if (two > nums[i])
-                    return true;
-                while (stack.Any() && nums[i] > stack.First())
-                    two = stack.Pop();
+                // nums[i] is only in the 1 position of 132 at the beginning of this loop
+                n_i = nums[i];
 
-                stack.Push(nums[i]);
+                // This condition must be met to satisfy 132 pattern.
+                // n_k can only be set if there is a value in the stack greater than it (n_j)
+                if (n_i < n_k)
+                    return true;
+
+                // If the above condition isn't met, we check to see if nums[i] could be the n_j or 3 in the 132 pattern
+                n_j = n_i;
+
+                // n_k can only be set if it is less than n_j. Thus this actually checks the n_k < n_j condition
+                while (stack.Any() && stack.First() < n_j)
+                    n_k = stack.Pop();
+
+                // At this point nums[i] could be the a valid n_j or 3 in the 132 pattern so we push it into the stack.
+                // Only valid n_j values should be left in the stack in the end. All others get popped out
+                stack.Push(n_j);
             }
             return false;
         }
@@ -79,7 +98,7 @@ namespace Pattern132
             return false;
         }
 
-        // Brute force solution: Too slow
+        // Brute force solution: Too easy, too slow
         public bool Find132patternBrute(int[] nums)
         {
             for (int i = 0; i < nums.Length - 2; i++)
