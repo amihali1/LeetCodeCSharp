@@ -13,3 +13,5 @@ C:\DevC#\LeetCodeCSharp\Pattern132\Pattern132\obj\Debug\net6.0\refint\Pattern132
 C:\DevC#\LeetCodeCSharp\Pattern132\Pattern132\obj\Debug\net6.0\Pattern132.pdb
 C:\DevC#\LeetCodeCSharp\Pattern132\Pattern132\obj\Debug\net6.0\Pattern132.genruntimeconfig.cache
 C:\DevC#\LeetCodeCSharp\Pattern132\Pattern132\obj\Debug\net6.0\ref\Pattern132.dll
+C:\DevC#\LeetCodeCSharp\Pattern132\Pattern132\bin\Debug\net6.0\Nito.Collections.Deque.dll
+C:\DevC#\LeetCodeCSharp\Pattern132\Pattern132\obj\Debug\net6.0\Pattern132.csproj.CopyComplete

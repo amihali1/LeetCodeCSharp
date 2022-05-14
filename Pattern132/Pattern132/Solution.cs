@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Nito.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,38 +9,20 @@ namespace Pattern132
 {
     internal class Solution
     {
+
+        //Stack solution: Works in O(n). Yay!
         internal bool Find132Pattern(int[] nums)
         {
-            if (nums.Length == 3)
+            Stack<int> stack = new Stack<int>();
+            int two = int.MinValue;
+            for (int i = nums.Count() - 1; i >= 0; i--)
             {
-                if (nums[0] < nums[2] && nums[2] < nums[1])
+                if (two > nums[i])
                     return true;
-                else
-                    return false;
-            }
+                while (stack.Any() && nums[i] > stack.First())
+                    two = stack.Pop();
 
-            var leftMins = new Stack<int>();
-            leftMins.Push(nums[0]);
-
-            for (int i = 1; i < nums.Length; i++)
-            {
-                leftMins.Push(Math.Min(nums[i - 1], nums[i]));
-            }
-
-            var rightMins = new Stack<int>();
-
-            for (int i = nums.Length - 1; i > 0; i--)
-            {
-                var leftMin = leftMins.ElementAt(i - 1);
-                var middleNum = nums[i];
-
-                while (rightMins.Any() && rightMins.Peek() <= leftMin)
-                    rightMins.Pop();
-
-                if (rightMins.Any() && rightMins.Peek() < middleNum)
-                    return true;
-
-                rightMins.Push(nums[i]);
+                stack.Push(nums[i]);
             }
             return false;
         }

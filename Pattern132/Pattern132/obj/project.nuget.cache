@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nO1IGVSrxMvgM6zu90vHAsjhenL0fHKq+gV3jfJbvImSyQ7gm15fHSPT6afpwOH442gV4ZhBU3ecvqQnRSWHDA==",
+  "dgSpecHash": "SBJx8rrvNd8Ydv1XSlQmxxIEGyeK0+vzmbn6zuIGUVhiUiL1a6GULkruH1Tb69gv+fbLcPDmoueB+FyY+dyoCQ==",
   "success": true,
   "projectFilePath": "C:\\DevC#\\LeetCodeCSharp\\Pattern132\\Pattern132\\Pattern132.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\andym\\.nuget\\packages\\nito.collections.deque\\1.1.1\\nito.collections.deque.1.1.1.nupkg.sha512"
+  ],
   "logs": []
 }
