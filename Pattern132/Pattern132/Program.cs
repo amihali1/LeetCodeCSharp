@@ -11,20 +11,20 @@ using Pattern132;
 
 var solution = new Solution();
 
-Console.WriteLine("Testing [1,2,3,4]");
-Console.WriteLine("Expected Result: False | Actual Result: " + solution.Find132Pattern(new int[] { 1, 2, 3, 4 }));
+//Console.WriteLine("Testing [1,2,3,4]");
+//Console.WriteLine("Expected Result: False | Actual Result: " + solution.Find132Pattern(new int[] { 1, 2, 3, 4 }));
 
-Console.WriteLine("Testing [3,1,4,2]");
-Console.WriteLine("Expected Result: True | Actual Result: " + solution.Find132Pattern(new int[] { 3, 1, 4, 2 }));
+//Console.WriteLine("Testing [3,1,4,2]");
+//Console.WriteLine("Expected Result: True | Actual Result: " + solution.Find132Pattern(new int[] { 3, 1, 4, 2 }));
 
-Console.WriteLine("Testing [-1,3,2,0]");
-Console.WriteLine("Expected Result: True | Actual Result: " + solution.Find132Pattern(new int[] { -1, 3, 2, 0 }));
+//Console.WriteLine("Testing [-1,3,2,0]");
+//Console.WriteLine("Expected Result: True | Actual Result: " + solution.Find132Pattern(new int[] { -1, 3, 2, 0 }));
 
-Console.WriteLine("Testing [1,3,2,4,5,6,7,8,9,10]");
-Console.WriteLine("Expected Result: True | Actual Result: " + solution.Find132Pattern(new int[] { 1, 3, 2, 4, 5, 6, 7, 8, 9, 10 }));
+//Console.WriteLine("Testing [1,3,2,4,5,6,7,8,9,10]");
+//Console.WriteLine("Expected Result: True | Actual Result: " + solution.Find132Pattern(new int[] { 1, 3, 2, 4, 5, 6, 7, 8, 9, 10 }));
 
 Console.WriteLine("Testing [3,5,0,3,4]");
 Console.WriteLine("Expected Result: True | Actual Result: " + solution.Find132Pattern(new int[] { 3, 5, 0, 3, 4 }));
 
-Console.WriteLine("Testing [1,0,1,-4,-3]");
-Console.WriteLine("Expected Result: False | Actual Result: " + solution.Find132Pattern(new int[] { 1, 0, 1, -4, -3 }));
+//Console.WriteLine("Testing [1,0,1,-4,-3]");
+//Console.WriteLine("Expected Result: False | Actual Result: " + solution.Find132Pattern(new int[] { 1, 0, 1, -4, -3 }));
