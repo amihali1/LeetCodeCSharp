@@ -1,0 +1,15 @@
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\bin\Debug\net6.0\NetworkDelayTime.exe
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\bin\Debug\net6.0\NetworkDelayTime.deps.json
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\bin\Debug\net6.0\NetworkDelayTime.runtimeconfig.json
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\bin\Debug\net6.0\NetworkDelayTime.dll
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\bin\Debug\net6.0\NetworkDelayTime.pdb
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.csproj.AssemblyReference.cache
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.AssemblyInfoInputs.cache
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.AssemblyInfo.cs
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.csproj.CoreCompileInputs.cache
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.dll
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\refint\NetworkDelayTime.dll
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.pdb
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\NetworkDelayTime.genruntimeconfig.cache
+C:\DevC#\LeetCodeCSharp\NetworkDelayTime\NetworkDelayTime\obj\Debug\net6.0\ref\NetworkDelayTime.dll
