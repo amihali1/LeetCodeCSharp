@@ -20,16 +20,23 @@ Console.WriteLine("times = [[1,2,1],[2,1,3]], n = 2, k = 2");
 times = new int[][] { new int[] { 1, 2, 1 }, new int[] { 2, 1, 3 } };
 Console.WriteLine("Expected Result: 3 | Actual Result: " + solution.NetworkDelayTime(times, 2, 2));
 
+Console.WriteLine("times = [[1,2,1],[2,3,2]], n = 3, k = 1");
+times = new int[][] { new int[] { 1, 2, 1 }, new int[] { 2, 3, 2 } };
+Console.WriteLine("Expected Result: 3 | Actual Result: " + solution.NetworkDelayTime(times, 3, 1));
+
+Console.WriteLine("times = [[1, 2, 1],[2, 3, 2],[1, 3, 2]], n = 3, k = 1");
+times = new int[][] { new int[] { 1, 2, 1 }, new int[] { 2, 3, 2 }, new int[] { 1, 3, 2 } };
+Console.WriteLine("Expected Result: 2 | Actual Result: " + solution.NetworkDelayTime(times, 3, 1));
+
 public class Solution
 {
     public int NetworkDelayTime(int[][] times, int n, int k)
     {
         var createdNodes = new Dictionary<int, Node>();
         var nodeHash = new HashSet<int>();
-        var totalTime = 0;
 
         for (int i = 1; i <= n; i++)
-            nodeHash.Add(i);
+            nodeHash.Add(i);      
 
         foreach (var timeArray in times)
         {
@@ -61,7 +68,7 @@ public class Solution
             var kNode = createdNodes[k];
             nodeHash.Remove(k);
 
-            var endingTotalTime = SearchToEnd(kNode, nodeHash, totalTime);
+            var endingTotalTime = SearchToEnd(kNode, nodeHash, 0, 0, 0);
 
             if (!nodeHash.Any())
                 return endingTotalTime;
@@ -70,62 +77,37 @@ public class Solution
         return -1;
     }
 
-    public int SearchToEnd(Node node, HashSet<int> nodeHash, int totalTime)
+    public int SearchToEnd(Node node, HashSet<int> nodeHash, int timeToNode, int totalTime, int highestTime)
     {
+        totalTime += timeToNode;
+        if (totalTime > highestTime)
+            highestTime = totalTime;
+
         if (nodeHash.Any())
         {
-            foreach (var path in node.paths)
-            {
-                node.totalTime += path.time;
-                for (int i = 0; i < path.path.Count; i++)
-                {
-                    if (nodeHash.Contains(path.path[i]))
-                        nodeHash.Remove(path.path[i]);
-                }
-            }
-
             foreach (var nextNode in node.nextNodes)
             {
-                int endTotalTime = SearchToEnd(nextNode, nodeHash, totalTime);
-                if (node.totalTime > totalTime)
-                    totalTime = node.totalTime;
+                nodeHash.Remove(nextNode.node.position);
+                highestTime = SearchToEnd(nextNode.node, nodeHash, nextNode.timeToNode, totalTime, highestTime);
             }
         }
 
-        return totalTime;
+        return highestTime;
     }
 }
 
 public class Node
 {
-    private int position;
-    private Node prevNode;
-    internal List<Node> nextNodes;
-    internal int totalTime;
-    internal List<(List<int> path, int time)> paths;
+    internal int position;
+    internal List<(Node node, int timeToNode)> nextNodes;
     public Node(int pos)
     {
         position = pos;
-        paths = new List<(List<int> path, int time)>();
-        nextNodes = new List<Node>();
-        totalTime = 0;
+        nextNodes = new List<(Node node, int timeToNode)>();
     }
 
     internal void AddTarget(Node node, int time)
     {
-        if (!paths.Any(p => p.path.Contains(node.position)))
-        {
-            paths.Add((path: new List<int>() { this.position, node.position},time: time));
-            nextNodes.Add(node);
-            node.prevNode = this;
-        }
-        else
-        {
-            node.paths = prevNode.paths;
-            var path = paths.First(p => p.path.Last() == this.position);
-            path.path.Add(node.position);
-            path.time += time;
-            this.nextNodes.Add(node);
-        }
+        nextNodes.Add((node, time));
     }
 }
