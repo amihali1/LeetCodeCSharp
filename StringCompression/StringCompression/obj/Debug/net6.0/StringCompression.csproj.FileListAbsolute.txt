@@ -1,0 +1,15 @@
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\bin\Debug\net6.0\StringCompression.exe
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\bin\Debug\net6.0\StringCompression.deps.json
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\bin\Debug\net6.0\StringCompression.runtimeconfig.json
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\bin\Debug\net6.0\StringCompression.dll
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\bin\Debug\net6.0\StringCompression.pdb
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.csproj.AssemblyReference.cache
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.AssemblyInfoInputs.cache
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.AssemblyInfo.cs
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.csproj.CoreCompileInputs.cache
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.dll
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\refint\StringCompression.dll
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.pdb
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\StringCompression.genruntimeconfig.cache
+C:\DevC#\LeetCodeCSharp\StringCompression\StringCompression\obj\Debug\net6.0\ref\StringCompression.dll
