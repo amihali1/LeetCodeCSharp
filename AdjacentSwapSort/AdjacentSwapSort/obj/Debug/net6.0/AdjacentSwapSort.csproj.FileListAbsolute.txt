@@ -1,0 +1,15 @@
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\bin\Debug\net6.0\AdjacentSwapSort.exe
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\bin\Debug\net6.0\AdjacentSwapSort.deps.json
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\bin\Debug\net6.0\AdjacentSwapSort.runtimeconfig.json
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\bin\Debug\net6.0\AdjacentSwapSort.dll
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\bin\Debug\net6.0\AdjacentSwapSort.pdb
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.csproj.AssemblyReference.cache
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.AssemblyInfoInputs.cache
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.AssemblyInfo.cs
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.csproj.CoreCompileInputs.cache
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.dll
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\refint\AdjacentSwapSort.dll
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.pdb
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\AdjacentSwapSort.genruntimeconfig.cache
+C:\DevC#\LeetCodeCSharp\AdjacentSwapSort\AdjacentSwapSort\obj\Debug\net6.0\ref\AdjacentSwapSort.dll
